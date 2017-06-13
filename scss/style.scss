@@ -1,0 +1,39 @@
+@function rem($px) {
+    @return $px/(750/16)*1rem;
+}
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #eee;
+
+    padding: rem(200) rem(30);
+}
+
+.s-box {
+    box-sizing: border-box;
+}
+
+#sear {
+    width: rem(500);
+    height: rem(80);
+    border: 1px solid #333;
+    border-radius: rem(6);
+}
+#sub {
+    width: rem(100);
+    height: rem(80);
+    background: #fff;
+    border: 1px solid #333;
+    border-radius: rem(6);
+}
+p {
+    font-size: rem(28);
+    margin: rem(50) 0;
+}
+
+#prize-img {
+    max-width: 100%;
+}

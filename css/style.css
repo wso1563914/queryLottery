@@ -1,0 +1,15 @@
+* { border: 0; margin: 0; padding: 0; }
+
+body { background: #eee; padding: 4.26667rem 0.64rem; }
+
+.s-box { box-sizing: border-box; }
+
+#sear { width: 10.66667rem; height: 1.70667rem; border: 1px solid #333; border-radius: 0.128rem; }
+
+#sub { width: 2.13333rem; height: 1.70667rem; background: #fff; border: 1px solid #333; border-radius: 0.128rem; }
+
+p { font-size: 0.59733rem; margin: 1.06667rem 0; }
+
+#prize-img { max-width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
